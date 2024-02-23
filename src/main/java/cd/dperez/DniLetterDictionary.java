@@ -3,7 +3,7 @@ package cd.dperez;
 import java.util.HashMap;
 
 public class DniLetterDictionary {
-    private HashMap<Integer, Character> numberToLetterConverter = new HashMap<Integer, Character>();
+    private HashMap<Integer, Character> numberToLetterConverter = new HashMap<>();
 
     public DniLetterDictionary(){
         numberToLetterConverter.put(0, 'T');

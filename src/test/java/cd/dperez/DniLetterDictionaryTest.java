@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class DniLetterDictionaryTest {
+class DniLetterDictionaryTest {
 
     DniLetterDictionary dictionary = new DniLetterDictionary();
 
     @Test
-    public void getLetterTest(){
+    void getLetterTest(){
         assertEquals('P', dictionary.getLetter(8));
         assertEquals('Z', dictionary.getLetter(14));
         assertEquals('T', dictionary.getLetter(0));
